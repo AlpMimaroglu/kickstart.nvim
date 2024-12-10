@@ -870,14 +870,10 @@ require('lazy').setup({
     priority = 1000,
     lazy = false,
     opts = {
-      -- your configuration comes here
-      -- or leave it empty to use the default settings
-      -- refer to the configuration section below
       bigfile = { enabled = true },
       dashboard = {
         enabled = true,
         sections = {
-          --{ section = '', padding = 20 },
           { section = 'header' },
           { section = 'keys', gap = 1, padding = 1 },
           { section = 'startup' },
