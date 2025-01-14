@@ -542,6 +542,7 @@ require('lazy').setup({
         -- gopls = {},
         ruff = {},
         rust_analyzer = {},
+        marksman = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -549,6 +550,9 @@ require('lazy').setup({
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         ts_ls = {},
+        volar = {},
+        prettier = {},
+        tailwindcss = {},
         --
 
         lua_ls = {
@@ -879,6 +883,7 @@ require('lazy').setup({
         quickfile = { enabled = true },
         statuscolumn = { enabled = true },
         words = { enabled = true },
+        lazygit = {},
       },
     },
   },
