@@ -553,6 +553,8 @@ require('lazy').setup({
         volar = {},
         prettier = {},
         tailwindcss = {},
+        astro = {},
+
         --
 
         lua_ls = {
